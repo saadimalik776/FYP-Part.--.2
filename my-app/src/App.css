@@ -1,0 +1,293 @@
+/* Basic Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('FYP.jpg.png'); /* Replace with your image path */
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+.header {
+  background-color: #004b8d;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  align-items: center;
+}
+
+.header .logo,
+.logo-button {
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.header nav a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #004b8d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Container with Background Image */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+  color: black;
+
+}
+
+/* Buttons */
+button,
+.link-button {
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.link-button {
+  display: inline-flex;
+  padding: 8px 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  color: #007bff;
+  background-color: transparent;
+}
+
+.link-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="email"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1em;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Processing Bar */
+.processing-bar {
+  width: 100%;
+  max-width: 300px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 20px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.processing-bar-fill {
+  width: 0;
+  height: 100%;
+  background-color: #007bff;
+  animation: fillBar var(--fill-duration, 3s) linear forwards;
+}
+
+@keyframes fillBar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+/* Basic Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for Home Page */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* Welcome text centered */
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #004b8d;
+}
+
+/* Buttons Styling */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* Limit width */
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.button-container .left-button {
+  margin-right: auto; /* Push this button to the left */
+}
+
+.button-container .right-button {
+  margin-left: auto; /* Push this button to the right */
+}
+
+/* Footer */
+.footer {
+  background-color: #004b8d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Basic Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f7fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for Home Page */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* Welcome text centered */
+.container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #004b8d;
+}
+
+/* Buttons Styling */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* Limit width */
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #0056b3;
+}
+
+.button-container .left-button {
+  margin-right: auto; /* Push this button to the left */
+}
+
+.button-container .right-button {
+  margin-left: auto; /* Push this button to the right */
+}
+
+/* Footer */
+.footer {
+  background-color: #004b8d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
