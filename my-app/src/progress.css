@@ -1,0 +1,28 @@
+/* progress.css */
+.processing-bar {
+    width: 100%;
+    max-width: 300px;
+    height: 10px;
+    background-color: #ddd;
+    margin: 20px 0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .processing-bar-fill {
+    width: 0;
+    height: 100%;
+    background-color: black;
+    animation: fillBar var(--fill-duration, 3s) linear forwards;
+  }
+  
+  @keyframes fillBar {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
