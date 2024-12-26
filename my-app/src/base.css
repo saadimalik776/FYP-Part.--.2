@@ -1,0 +1,24 @@
+/* base.css */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    animation: backgroundTransition 10s infinite;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @keyframes backgroundTransition {
+    0% {
+      background-image: url('f3.jpg');
+    }
+    50% {
+      background-image: url('f2.jpg');
+    }
+    100% {
+      background-image: url('f1.jpg');
+    }
+  }
+  
