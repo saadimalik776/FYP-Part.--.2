@@ -1,0 +1,66 @@
+/* buttons.css */
+button,
+.link-button {
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color:#bc4a00a8 ;
+}
+
+.link-button {
+  display: inline-flex;
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: transparent;
+}
+
+.link-button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; 
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #bc4a00a8;
+  } */
+  
+  .button-container .left-button {
+    margin-right: auto; 
+   }
+  
+  .button-container .right-button {
+    margin-left: auto; 
+  } 
