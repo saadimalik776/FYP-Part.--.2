@@ -1,0 +1,21 @@
+/* form.css */
+input[type="text"],
+input[type="password"],
+input[type="file"],
+input[type="email"] {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
