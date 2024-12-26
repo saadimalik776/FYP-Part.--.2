@@ -1,0 +1,10 @@
+.container p {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.container svg {
+  color: whitesmoke; /* Icon color */
+  font-size: 20px; /* Icon size */
+}
