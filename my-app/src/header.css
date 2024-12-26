@@ -1,0 +1,50 @@
+/* General header styling */
+.header {
+    background-color: #bc4a00a8; /* Orange shade */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+}
+
+/* Logo Styling */
+.header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Navigation links */
+.header nav a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5rem 1rem; /* Adds space around the text */
+    border-radius: 5px; /* Slightly rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+.header nav a:hover {
+    color: #bc3c00; /* Highlight text color */
+    background-color: #fff; /* Background changes on hover */
+    border-radius: 8px; /* Smooth and rounded corners */
+    border: 2px solid #bc3c00; /* Consistent border color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds depth */
+    transform: scale(1.05); /* Slight zoom on hover */
+    opacity: 0.7;
+}
+
+/* Active link styling (for the current page) */
+.header nav a.active {
+    background-color: #fff;
+    color: #bc3c00;
+    border: 2px solid #bc3c00;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
