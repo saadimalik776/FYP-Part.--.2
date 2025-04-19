@@ -1,0 +1,263 @@
+/* Admin Dashboard - Professional Styling */
+
+/* Base Styles */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --danger-color: #e74c3c;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dashboard Container */
+  .admin-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Dashboard Header */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--light-color);
+  }
+  
+  .dashboard-title {
+    color: var(--dark-color);
+    font-size: 2.2rem;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    background: var(--danger-color);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logout-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(231, 76, 60, 0.2);
+  }
+  
+  /* Dashboard Content */
+  .dashboard-content {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+  }
+  
+  /* Dashboard Buttons */
+  .dashboard-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .dashboard-btn {
+    border: none;
+    padding: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: white;
+  }
+  
+  .dashboard-btn i {
+    font-size: 2rem;
+  }
+  
+  .dashboard-btn span {
+    font-size: 1rem;
+  }
+  
+  .user-btn {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+  }
+  
+  .user-btn:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    transform: translateY(-5px);
+  }
+  
+  .doctor-btn {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+  }
+  
+  .doctor-btn:hover {
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    transform: translateY(-5px);
+  }
+  
+  .approval-btn {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+  }
+  
+  .approval-btn:hover {
+    background: linear-gradient(135deg, #8e44ad, #9b59b6);
+    transform: translateY(-5px);
+  }
+  
+  /* Pending Requests Section */
+  .section-title {
+    color: var(--dark-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--light-color);
+  }
+  
+  .no-requests {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    padding: 2rem;
+  }
+  
+  /* Requests Grid */
+  .requests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Doctor Card */
+  .doctor-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+    border: 1px solid #eee;
+    transition: var(--transition);
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-info h4 {
+    margin: 0 0 0.5rem 0;
+    color: var(--dark-color);
+    font-size: 1.2rem;
+  }
+  
+  .doctor-email {
+    color: #7f8c8d;
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .doctor-specialization {
+    color: var(--dark-color);
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+    padding: 0.3rem 0.6rem;
+    background: var(--light-color);
+    border-radius: 20px;
+    display: inline-block;
+  }
+  
+  /* Action Buttons */
+  .action-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .approve-btn, .reject-btn {
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .approve-btn {
+    background: var(--secondary-color);
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background: #27ae60;
+    transform: translateY(-2px);
+  }
+  
+  .reject-btn {
+    background: var(--danger-color);
+    color: white;
+  }
+  
+  .reject-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .dashboard-buttons {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-buttons {
+      grid-template-columns: 1fr;
+    }
+    
+    .requests-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .admin-dashboard {
+      padding: 1rem;
+    }
+    
+    .dashboard-content {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* Font Awesome Icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
