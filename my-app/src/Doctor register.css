@@ -1,0 +1,93 @@
+/* Doctor Registration Page Styling */
+.doctor-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+  }
+  
+  .register-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .register-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.3);
+  }
+  
+  .register-btn {
+    background: #007BFF;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+  .login-redirect {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-redirect p {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .login-btn {
+    background: none;
+    border: none;
+    color: #2d7af7;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: underline;
+    padding: 5px;
+  }
+  
+  .login-btn:hover {
+    color: #1a5bbf;
+  }
