@@ -1,3 +1,4 @@
+
 /* Basic Styling
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -224,3 +225,60 @@ input[type="email"] {
 .button-container .right-button {
   margin-left: auto; 
 }  */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.home-container h1 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.project-description {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.project-description p {
+  margin-bottom: 1rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in forwards;
+}
+
+.project-description p:nth-child(1) {
+  animation-delay: 0.3s;
+}
+.project-description p:nth-child(2) {
+  animation-delay: 0.6s;
+}
+.project-description p:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container h1 {
+    font-size: 2rem;
+  }
+  
+  .project-description {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
