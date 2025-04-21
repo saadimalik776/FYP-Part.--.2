@@ -1,0 +1,117 @@
+/* ✅ General Styling */
+.doctor-activity-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* ✅ Heading */
+.doctor-activity-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* ✅ Form Styling */
+.activity-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.activity-form input {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.activity-form button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.activity-form button:hover {
+    background-color: #218838;
+}
+
+/* ✅ Table Styling */
+.activity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.activity-table th, .activity-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.activity-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.activity-table td {
+    background-color: #fff;
+}
+
+/* ✅ Buttons in Table */
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn {
+    background-color: #ffc107;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .activity-form input {
+        width: 100%;
+    }
+
+    .activity-form button {
+        width: 100%;
+    }
+}
