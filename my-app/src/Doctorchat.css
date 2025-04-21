@@ -1,0 +1,190 @@
+/* DoctorChat.css - Unique Class Names */
+
+/* Container Styles */
+.dr-chat-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fa;
+  }
+  
+  .dr-chat-header {
+    color: #2d3436;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Layout Structure */
+  .dr-chat-layout {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Patient List Styles */
+  .dr-chat-patient-list {
+    width: 300px;
+    border-right: 1px solid #eee;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+  
+  .dr-chat-patient-list-header {
+    padding: 15px;
+    margin: 0;
+    background-color: #6c5ce7;
+    color: white;
+  }
+  
+  .dr-chat-patient-item {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dr-chat-patient-item:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .dr-chat-patient-active {
+    background-color: #e0e0e0;
+    border-left: 4px solid #6c5ce7;
+  }
+  
+  .dr-chat-patient-name {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #2d3436;
+  }
+  
+  .dr-chat-last-message {
+    display: block;
+    font-size: 0.9em;
+    color: #7f8c8d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Chat Area Styles */
+  .dr-chat-main-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dr-chat-conversation-header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #f8f9fa;
+  }
+  
+  .dr-chat-messages-container {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
+  
+  .dr-chat-no-messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #7f8c8d;
+  }
+  
+  /* Message Bubbles */
+  .dr-chat-message-bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 18px;
+    position: relative;
+  }
+  
+  .dr-chat-message-sent {
+    background-color: #6c5ce7;
+    color: white;
+    margin-left: auto;
+    border-bottom-right-radius: 0;
+  }
+  
+  .dr-chat-message-received {
+    background-color: #f1f1f1;
+    color: #2d3436;
+    margin-right: auto;
+    border-bottom-left-radius: 0;
+  }
+  
+  .dr-chat-timestamp {
+    display: block;
+    font-size: 0.7em;
+    margin-top: 5px;
+    opacity: 0.8;
+  }
+  
+  .dr-chat-timestamp-sent {
+    text-align: right;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .dr-chat-timestamp-received {
+    text-align: left;
+    color: rgba(45, 52, 54, 0.7);
+  }
+  
+  /* Message Form */
+  .dr-chat-message-form {
+    display: flex;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    background-color: #f8f9fa;
+  }
+  
+  .dr-chat-message-input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .dr-chat-send-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dr-chat-send-button:hover {
+    background-color: #5649d6;
+  }
+  
+  .dr-chat-send-button-disabled {
+    background-color: #b2bec3;
+    cursor: not-allowed;
+  }
+  
+  /* Empty States */
+  .dr-chat-no-patient-selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #7f8c8d;
+  }
