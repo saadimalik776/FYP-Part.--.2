@@ -1,0 +1,74 @@
+/* Main Container */
+.doctor-approval-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Heading */
+  .doctor-approval-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Doctor List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual Doctor Block */
+  li {
+    background: #f9f9f9;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Doctor Info */
+  li strong {
+    font-size: 18px;
+    color: #444;
+  }
+  
+  li p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Buttons */
+  button {
+    margin: 10px 5px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:first-of-type {
+    background: #28a745;
+    color: white;
+  }
+  
+  button:first-of-type:hover {
+    background: #218838;
+  }
+  
+  button:last-of-type {
+    background: #dc3545;
+    color: white;
+  }
+  
+  button:last-of-type:hover {
+    background: #c82333;
+  }
+  
