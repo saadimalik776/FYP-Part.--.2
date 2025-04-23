@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
+    <mxGraphModel dx="880" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_5mSTuPxr-ZiKRkBDSY7-1" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="80" width="540" height="440" as="geometry" />
+        </mxCell>
+        <object label="Phase 1" status="New" id="_5mSTuPxr-ZiKRkBDSY7-2">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Data Annotation" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-5">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Dataset Collection" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-4">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f5f5f5;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;fontColor=#333333;strokeColor=#666666;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Phase 2" status="In progress" id="_5mSTuPxr-ZiKRkBDSY7-6">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry x="180" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="&lt;font style=&quot;&quot;&gt;Model Training&lt;/font&gt;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-7">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#6c8ebf;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Testing and Validation" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-8">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#6c8ebf;" parent="_5mSTuPxr-ZiKRkBDSY7-6" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Phase 3" status="Completed" id="_5mSTuPxr-ZiKRkBDSY7-9">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#1BA1E2;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
+            <mxGeometry x="360" y="28" width="180" height="412" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Web Application&lt;div&gt;Integration&lt;/div&gt;" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-10">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="21" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="User Interaction" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-11">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="121" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Result Generation and display" placeholders="1" id="_5mSTuPxr-ZiKRkBDSY7-12">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#d5e8d4;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;strokeColor=#82b366;" parent="_5mSTuPxr-ZiKRkBDSY7-9" vertex="1">
+            <mxGeometry x="20" y="221" width="140" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="Z0iKKYFkd_u9jCxFdzv4-13" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="521" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z0iKKYFkd_u9jCxFdzv4-14" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
