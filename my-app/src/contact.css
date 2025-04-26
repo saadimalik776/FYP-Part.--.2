@@ -1,10 +1,72 @@
-.container p {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* Space between icon and text */
+/* Contact Section - Unique Styling */
+.contact-section {
+  max-width: 800px;  /* Increased size */
+  margin: 60px auto;
+  padding: 40px;
+  background: linear-gradient(135deg, #1a1a1a, #333); /* Dark gradient for contrast */
+  color: #fff;  /* White text for readability */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.container svg {
-  color: whitesmoke; /* Icon color */
-  font-size: 20px; /* Icon size */
+.contact-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* Heading Styling */
+.contact-section h1 {
+  font-size: 32px;
+  color: #ffcc00; /* Gold color for contrast */
+  margin-bottom: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Contact Info Styling */
+.contact-section p {
+  font-size: 20px;
+  color: #f1f1f1;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Icon Styling */
+.contact-section svg {
+  color: #ffcc00; /* Gold icons for a premium look */
+  font-size: 24px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.contact-section p:hover svg {
+  color: #ffd633;
+  transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-section {
+      max-width: 95%;
+      padding: 30px;
+  }
+  
+  .contact-section h1 {
+      font-size: 28px;
+  }
+  
+  .contact-section p {
+      font-size: 18px;
+  }
+  
+  .contact-section svg {
+      font-size: 22px;
+  }
 }
