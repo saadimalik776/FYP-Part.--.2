@@ -1,28 +1,21 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import FlipCards from "./FlipCards";
 import './App.css';
+import './flipcards.css';
 
 function Home() {
-  const navigate = useNavigate();
-
   return (
-    <div className="container">
-      <h1>Welcome to Diabeto-Vision</h1>
-      <div className="button-container">
-        <button 
-          className="left-button" 
-          onClick={() => navigate("/doctor")}
-        >
-          Doctor
-        </button>
-        <button 
-          className="right-button" 
-          onClick={() => navigate("/detection")}
-        >
-          Detection
-        </button>
+    <>
+      <div className="home-container">
+        <h1>Welcome to Diabeto-Vision</h1>
+        <div className="project-description">
+          <p>A cutting-edge platform for diabetic retinopathy detection using AI</p>
+          <p>Seamless integration between patients and ophthalmologists</p>
+          <p>Early detection to prevent vision loss through advanced screening</p>
+        </div>
       </div>
-    </div>
+      <FlipCards />
+    </>
   );
 }
 
